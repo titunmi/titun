@@ -299,16 +299,101 @@
 # print(statement)
 
 # assignment3
-import random
-for x in range(2):
-    print(random.randint(1,6))
-if random.randint is (6,6) is True:
-    print ('you win')
+# import random
+# for x in range(2):
+#     print(random.randint(1,6))
+# if x is (6,6):
+#     print('you win')
+# else:
+#     print('try again')
+# import random
+# dice1 = random.randint(1,6)
+# dice2 = random.randint(1,6)
+# print(dice1, dice2)
+# if (dice1 == 6) & (dice2 == 6) :
+#     print('yes you won')
+# else:
+#     print('try again')
+
+# names =[('Ade', 'm'), ('shade','f'), ('john','m'), ('bolu', 'f')]
+# raw_saluted_names = map (lambda x: 'Mr ' + x[0] if x[1] =='m' else 'Mrs ' + x[0], names) # Tenary operator
+# saluted_names = list (raw_saluted_names)
+# print(saluted_names)
+
+# if 'foo' in ['foo', 'bar', 'baz']:
+#     print ('outer condition is true')
+
+#     if 10 > 20 :
+#         print ('inner condition 1')
+    
+#     print ('between inner condition')
+
+#     if 10< 20 :
+#         print('inner condition 2')
+    
+#     print ('End of outer condition')
+
+# print('After outer conditon')
+# age = int (input ('please input your age: '))
+# behaviour = input ('please input good or bad: ')
+# if behaviour == 'good':
+#     if age < 18 :
+#         print('you get a toy')
+#     else :
+#         print('you get a car')
+# else:
+#     print('you are left')
+
+
+# if 'a' in 'bar':
+#     print('boo')
+# elif 1/0:
+#     print: ('this wont happen')
+# elif var:
+#     print ('this wont run either')
+# # age = int (input ('please input your age: '))
+# # behaviour = input ('please input good or bad: ')
+# # if behaviour == 'good' and age < 18 :
+# #     print('you get a toy')
+# # if behaviour == 'good' and age > 18:
+# #     print('you get a car')
+# # if behaviour == 'bad':
+# #     print('you are left alone')
+
+
+# score = int (input ('score in exam: '))
+# print('you', 'pass' if score > 50 else 'fail')
+
+# x = 3
+# x = ( 'foo' if (x ==1) else ('bar' if (x==2)else ('baz' if (x==3) else ('qux' if (x ==4) else 'quux'))))
+# print(x)
+
+
+question1 = input ('are you okay: ')
+if question1 == 'false' :
+    question2 = input ('do you have pains: ') 
+    if question2 == 'true' :
+        question3 = input ('did you sleep well: ')
+        if question3 == 'true':
+            question4 = input ('have you done hard work: ')
+            if question4 == 'false':
+                question5 = input('do you have fever: ')
+                if question5 == 'true':
+                    question6 = input ('are you vomitting: ')
+                    if question6 == 'true':
+                        print('please see a doctor')
+                    else:
+                        print ('take some anti malaria')
+                else:
+                    print('inconclusive see a doctor')
+            else:
+                print('have some pain killer')
+        else: 
+            print('try to sleep')
+    else:
+        print('unable to diagnose now')
 else:
-     print('you win')
-
-
-
+    print('please get a life')
 
 
 
